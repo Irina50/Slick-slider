@@ -5,73 +5,145 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="some slider">
   <title>Meral-test</title>
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
   <header class="header">
-    <div class="container">
-      <a href="/index.html" class="logo">
-        <img src="img/logo.svg" alt="logo" class="logo__img">
-      </a>
-      <div class="header__control">
-        <img src="img/avatar.jpg" alt="avatar" class="header__avatar">
-        <div class="header__text">Hello <span class="header__text header__text--bold">Username</span></div>
-        <button class=" btn header__btn">
-          <img src="img/arrow-down.svg" alt="login" class="header__img">
-        </button>
+    <a href="/index.html" class="logo">
+      <img src="img/logo.svg" alt="logo" class="logo__img">
+    </a>
+    <div class="header__control">
+      <div class="header__avatar">
+        <img src="img/avatar.jpg" alt="avatar">
       </div>
+      <div class="header__text">
+        <p class="header__greats">Hello</p>
+        <p class="header__greats header__greats--bold">Username</p>
+      </div>
+      <button class="btn header__btn">
+        <img src="img/arrow-down.svg" alt="login" class="header__img">
+      </button>
     </div>
   </header>
   <main class="main">
     <h1 class="title title--hidden">Meraldev</h1>
     <section class="creators">
       <div class="creators__top">
-        <h2 class="title creators__title">Featured Creators</h2>
-        <input type="text" class="creators__search">
+        <h2 class="creators__title">Featured <span class="creators__title--red"> Creators</span></h2>
+        <div class="creators__search">
+          <input type="text" class="creators__input" placeholder="Search">
+        </div>
       </div>
-      <div class="creators__slider">
-        <div class="slide creators__slide">
-          <img src="img/slide-1.jpg" alt="slide" class="creators__img">
-          <h3 class="slide__title">THE RUBIN REPORT</h3>
-          <p class="slide__text">Get exclusive content. Interact with Dave.</p>
-          <a href="#" class="slide__btn slide__btn--open"></a>
+      <div class="creators__slider ">
+        <div class="slide creators__slide creators__slide--create">
+          <div class="slide__inner">
+            <div class="slide__content">
+              <p class="slide__title">Want to be a featured creator?</p>
+              <p class="slide__text">Start by creating your own community</p>
+              <p class="slide__text--hidden">Get exclusive content. Interact with Bridget. Verified Nobody. My
+                tribe is tribeless. Captain of the Fence Riding Team.
+                Fiddling while Rome burns. Find another hero.</p>
+            </div>
+            <button class=" btn slide__btn slide__btn--create">Create community</button>
+          </div>
         </div>
         <div class="slide creators__slide">
           <img src="img/slide-1.jpg" alt="slide" class="creators__img">
-          <h3 class="slide__title">THE RUBIN REPORT</h3>
-          <p class="slide__text">Get exclusive content. Interact with Dave.</p>
-          <a href="#" class="slide__btn slide__btn--open"></a>
+          <div class="slide__inner">
+            <div class="slide__content">
+              <p class="slide__title">THE RUBIN REPORT</p>
+              <p class="slide__text">Get exclusive content. Interact with Dave.</p>
+              <p class="slide__text--hidden">Get exclusive content. Interact with Bridget. Verified Nobody. My
+                tribe is tribeless. Captain of the Fence Riding Team.
+                Fiddling while Rome burns. Find another hero.</p>
+            </div>
+            <a href="#" class="slide__btn slide__btn--open">Open community</a>
+          </div>
         </div>
         <div class="slide creators__slide">
-          <img src="img/slide-1.jpg" alt="slide" class="creators__img">
-          <h3 class="slide__title">THE RUBIN REPORT</h3>
-          <p class="slide__text">Get exclusive content. Interact with Dave.</p>
-          <a href="#" class="slide__btn slide__btn--open"></a>
+          <img src="img/slide-2.jpg" alt="slide" class="creators__img">
+          <div class="slide__inner">
+            <div class="slide__content">
+              <p class="slide__title">NGO-GO ZONE</p>
+              <p class="slide__text">Get exclusive content. Interact with Andy.</p>
+              <p class="slide__text--hidden">Get exclusive content. Interact with Bridget. Verified Nobody. My
+                tribe is tribeless. Captain of the Fence Riding Team.
+                Fiddling while Rome burns. Find another hero.</p>
+            </div>
+            <a href="#" class="slide__btn slide__btn--join">Join community</a>
+          </div>
         </div>
         <div class="slide creators__slide">
-          <img src="img/slide-1.jpg" alt="slide" class="creators__img">
-          <h3 class="slide__title">THE RUBIN REPORT</h3>
-          <p class="slide__text">Get exclusive content. Interact with Dave.</p>
-          <a href="#" class="slide__btn slide__btn--open"></a>
+          <img src="img/slide-3.jpg" alt="slide" class="creators__img">
+          <div class="slide__inner">
+            <div class="slide__content">
+              <p class="slide__title">Bridget Phetasy</p>
+              <p class="slide__text">Get exclusive content. Interact with Bridget.</p>
+              <p class="slide__text--hidden">Get exclusive content. Interact with Bridget. Verified Nobody. My
+                tribe is tribeless. Captain of the Fence Riding Team.
+                Fiddling while Rome burns. Find another hero.</p>
+            </div>
+            <a href="#" class="slide__btn slide__btn--join">Join community</a>
+          </div>
+        </div>
+        <div class="slide creators__slide">
+          <img src="img/slide-4.jpg" alt="slide" class="creators__img">
+          <div class="slide__inner">
+            <div class="slide__content">
+              <p class="slide__title">THE RUBIN REPORT</p>
+              <p class="slide__text">Get exclusive content. Interact with Dave.</p>
+              <p class="slide__text--hidden">Get exclusive content. Interact with Bridget. Verified Nobody. My
+                tribe is tribeless. Captain of the Fence Riding Team.
+                Fiddling while Rome burns. Find another hero.</p>
+            </div>
+            <a href="#" class="slide__btn slide__btn--join">Join community</a>
+          </div>
         </div>
       </div>
     </section>
   </main>
   <footer class="footer">
-    <div class="footer__inner">
-      <ul class="footer__list">
-        <li class="footer__item"><a href="3" class="footer__link">Policy & Terms</a></li>
-        <li class="footer__item"><a href="3" class="footer__link">TL;DR</a></li>
-        <li class="footer__item"><a href="3" class="footer__link">Privacy</a></li>
-      </ul>
-      <div class="footer__info">
-        <a href="#" class="footer__link footer__link--sign">meraldev.com Ⓡ</a>
-        <span class="footer__link footer__link--date">2020</span>
-      </div>
+    <ul class="footer__list">
+      <li class="footer__item"><a href="3" class="footer__link">Policy & Terms</a></li>
+      <li class="footer__item"><a href="3" class="footer__link">TL;DR</a></li>
+      <li class="footer__item"><a href="3" class="footer__link">Privacy</a></li>
+    </ul>
+    <div class="footer__info">
+      <a href="#" class="footer__link footer__link--sign">meraldev.com Ⓡ</a>
+      <span class="footer__link footer__link--date">2020</span>
     </div>
   </footer>
+  <div class="login">
+    <div class="login__inner">
+      <form class="login__form">
+        <h4 class="login__title">Log In</h4>
+        <input type="email" class="login__input" placeholder="Email">
+        <input type="password" class="login__input" placeholder="Password">
+        <div class="login__help">
+          <span class="login__text">Forgot your password?</span>
+          <a href="#" class="login__link">Reset by email</a>
+        </div>
+        <button type="submit" class="btn login__btn">log in</button>
+      </form>
+      <div class="login__subtitle">Or Log In with</div>
+      <div class="social">
+        <button class="btn social__btn social__btn--fb">Facebook</button>
+        <button class="btn social__btn social__btn--ggl">Google</button>
+      </div>
+      <div class="login__help">
+        <span class="login__text">Don’t have an account yet?</span>
+        <a href="#" class="login__link">Sign Up</a>
+      </div>
+    </div>
+  </div>
+  <div class="popup__bg">
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>
